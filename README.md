@@ -1,4 +1,6 @@
 # learning-backend
+# [Live Notion link](https://gainful-omelet-0e5.notion.site/Backend-Node-Js-5c1bd7d512364851afdffc57c3328db0?pvs=25) 
+
 - The server. This is the computer that receives requests.
 - The app. This is the application running on the server that listens for requests, retrieves information from the database, and sends a response.
 - The database. Databases are used to organize and persist data.
