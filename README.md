@@ -3,8 +3,6 @@
 - The app. This is the application running on the server that listens for requests, retrieves information from the database, and sends a response.
 - The database. Databases are used to organize and persist data.
 
-[data:image/svg+xml;base64,PHN2ZyByb2xlPSJncmFwaGljcy1zeW1ib2wiIHZpZXdib3g9IjAgMCAxMyAzIiBjbGFzcz0iZG90cyIgc3R5bGU9IndpZHRoOiAxNHB4OyBoZWlnaHQ6IDEwMCU7IGRpc3BsYXk6IGJsb2NrOyBmaWxsOiB3aGl0ZTsgZmxleC1zaHJpbms6IDA7IG1hcmdpbi1sZWZ0OiA0cHg7Ij48Zz48cGF0aCBkPSJNMywxLjVBMS41LDEuNSwwLDEsMSwxLjUsMCwxLjUsMS41LDAsMCwxLDMsMS41WiIgLz48cGF0aCBkPSJNOCwxLjVBMS41LDEuNSwwLDEsMSw2LjUsMCwxLjUsMS41LDAsMCwxLDgsMS41WiIgLz48cGF0aCBkPSJNMTMsMS41QTEuNSwxLjUsMCwxLDEsMTEuNSwwLDEuNSwxLjUsMCwwLDEsMTMsMS41WiIgLz48L2c+PC9zdmc+](data:image/svg+xml;base64,PHN2ZyByb2xlPSJncmFwaGljcy1zeW1ib2wiIHZpZXdib3g9IjAgMCAxMyAzIiBjbGFzcz0iZG90cyIgc3R5bGU9IndpZHRoOiAxNHB4OyBoZWlnaHQ6IDEwMCU7IGRpc3BsYXk6IGJsb2NrOyBmaWxsOiB3aGl0ZTsgZmxleC1zaHJpbms6IDA7IG1hcmdpbi1sZWZ0OiA0cHg7Ij48Zz48cGF0aCBkPSJNMywxLjVBMS41LDEuNSwwLDEsMSwxLjUsMCwxLjUsMS41LDAsMCwxLDMsMS41WiIgLz48cGF0aCBkPSJNOCwxLjVBMS41LDEuNSwwLDEsMSw2LjUsMCwxLjUsMS41LDAsMCwxLDgsMS41WiIgLz48cGF0aCBkPSJNMTMsMS41QTEuNSwxLjUsMCwxLDEsMTEuNSwwLDEuNSwxLjUsMCwwLDEsMTMsMS41WiIgLz48L2c+PC9zdmc+)
-
 ## **What is a Web API, really?**
 
 An API is a collection of clearly defined methods of communication between different software components.
@@ -55,7 +53,6 @@ how actually our request and response goes there and server will find the web pa
 basically this transporting web pages ofc works on TCP so when someone requesting something that time in server some space in memory is created as know as TCP Socket 
 
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/59fd6278-45ed-454a-a710-72896a928297/9ab22a0b-f22c-40d9-9a34-2991bab58bc4/image.png)
-
 We can see here now when someone request web page the cache/thread or space is gone busy it’s called blocking single-threaded web server 
 
 so when another client requesting what we can do 🤔
@@ -100,9 +97,7 @@ install apache in system then run localhost:80
 you can see two files here 
 
 now let’s see in broser
-
 ![swappy-20240828-224330.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/59fd6278-45ed-454a-a710-72896a928297/59547550-3aed-4395-b33e-279fe15a155b/f08e5ca2-078b-4af6-a05b-2bdd3d661bb4.png)
-
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/59fd6278-45ed-454a-a710-72896a928297/f20d2f23-1cb8-4f9b-ad09-da70951f4808/image.png)
 
 we can see here status code is 304 Not Modified cause ETag and If-non-match ETag are same 
