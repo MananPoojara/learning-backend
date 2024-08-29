@@ -22,50 +22,6 @@ The [**Node.js website**](https://nodejs.org/en/about/) declares:
 
 > As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications.
 
-## Web Server
-
-apache
-
-express
-
-tomcat
-
-Are already ready to use server
-
-we can make our own servers with node.js ,python and etc..
-
-use for serving web pages
-
-use http protocols
-
-hosting web pages and APIs
-
-Requesting web page (httpReq)
-
-- The server. This is the computer that receives requests.
-- The app. This is the application running on the server that listens for requests, retrieves information from the database, and sends a response.
-- The database. Databases are used to organize and persist data.
-
-## **What is a Web API, really?**
-
-An API is a collection of clearly defined methods of communication between different software components.
-
-More specifically, a *Web API* is the interface created by the back-end: the collection of endpoints and the resources these endpoints expose.
-
-## **Other principles of the request-response cycle:**
-
-- The server typically cannot initiate responses without requests!
-- Every request needs a response, even if it’s just a 404 status code indicating that the content was not found. Otherwise your client will be left *hanging* (indefinitely waiting).
-- The server should not send more than one response per request. This will throw errors in your code.
-
-### [**What is Node?**](https://www.theodinproject.com/lessons/nodejs-introduction-what-is-nodejs#what-is-node)
-
-The [**Node.js website**](https://nodejs.org/en/about/) declares:
-
-> As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications.
-
-## Web Server
-
 apache
 
 express
