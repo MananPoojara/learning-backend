@@ -4,4 +4,4 @@
 
 # [Web Server](./Notion/WebServer.md)
 
-# [Caddy](./Notion/caddy.md)
+# [Caddy advanced HTTPS server](./Notion/caddy.md)
