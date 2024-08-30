@@ -38,11 +38,13 @@ and you can visit "/etc/caddy" ther is CaddyFile already exist you can edit that
 
 - Command of Caddy
 
+```
   > caddy start
   > caddy stop
   > caddy run
   > caddy reload
   > caddy fmt --overwrite (checking error before starting service)
+```
 
 - we also have to decide whether your workflow is API-based or CLI-based. (You can use both the API and config files on the same server, but we don't recommend it: best to have one source of truth.)
 
