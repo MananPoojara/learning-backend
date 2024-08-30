@@ -24,7 +24,7 @@
 - Also We can use JSON For all of this i show you difference in next step it's just small formate and syntax so it's your choice
 - Caddy’s internals actually work with a JSON configuration. When using a Caddyfile, Caddy translates it into this JSON structure. This JSON structure is a direct representation of Caddy’s runtime structures.
 
-Install Caddy ![here](https://caddyserver.com/docs/install)
+Install Caddy [here](https://caddyserver.com/docs/install)
 
 i am using Arch Linux
 
@@ -65,7 +65,7 @@ app.localhost {
 
 - Here we give Path where my site's files are stored(html,js,...)
 - and file_server is directive If you want to learn more about directives how we use them to load balancing backends so follow
-- ![Here](https://caddyserver.com/docs/caddyfile/concepts#directives)
+- [Here](https://caddyserver.com/docs/caddyfile/concepts#directives)
 
 ### Now Loading CaddyFile
 
