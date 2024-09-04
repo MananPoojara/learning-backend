@@ -5,3 +5,5 @@
 # [Web Server](./Notion/WebServer.md)
 
 # [Caddy advanced HTTPS server](./Notion/caddy.md)
+
+# [WebSocket Bidirectional Communication Protocol](./Notion/websocket.md)
